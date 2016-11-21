@@ -6,11 +6,11 @@
 <body>
 <h1>Banking Form</h1>
 <form>
-  First name:<br>
+  First Name:<br>
   <input type="text" name="firstname"><br>
-  Middle initial:<br>
+  Middle Initial:<br>
   <input type="text" name="middleinitial"><br>
-  Last name:<br>
+  Last Name:<br>
   <input type="text" name="lastname"><br>
   Address:<br>
   <input type="test" name="Address"><br>
@@ -20,11 +20,24 @@
   <input type="text" name="Employer"><br>
   Employer Address:<br>
   <input type="text" name="EmployerAddress"><br>
+  Loan Type:<br>
   <select name="Loan"><br>
+  <option value="Select">Select</option>
   <option value="Commercial">Commercial</option>
   <option value="Realestate">Real Estate</option>
   <option value="Personal">Personal</option>
-  <option value="Mortgage">Mortgage</option>
+  <option value="Mortgage">Mortgage</option><br>
+  Loan Amount:<br>
+  <input type="text" name="loanamount"><br>
+  Loan Length:<br>
+  <input type="radio" name="loanlength" value="5 Year"> 5 Year<br>
+  <input type="radio" name="loanlength" value="15 Year"> 15 Year<br>
+  <input type="radio" name="loanlength" value="30 Year"> 30 Year<br>
+  Special Condition:<br>
+  <input type="checkbox" name="SpecialCondition1" value="DownPayment"> I have a down payment<br>
+  <input type="checkbox" name="SpecialCondition2" value="Out-of-State-Resident"> Out-of-state-resident<br> 
+  <input type="checkbox" name="SpecialCondition3" value="Married"> Married<br>
+  <input type="checkbox" name="SpecialCondition4" value="Loanwillbeco-signed"> Loan will be co-signed<br>
 </select>
 </form>
 </body>
